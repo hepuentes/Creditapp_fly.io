@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Ejecutar la aplicación con Gunicorn (recomendado para producción)
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "run:app"]
+CMD ["gunicorn", "-c", "gunicorn_config.py", "run:app"]

@@ -24,3 +24,12 @@ CreditApp es un sistema completo de gestión de ventas, inventario y créditos d
 ## Instalación
 
 1. **Clonar el repositorio**:
+
+## Despliegue en Railway
+
+En la sección **Variables** de tu proyecto en Railway define:
+
+1. `DATABASE_URL`: la cadena de conexión de PostgreSQL proporcionada por Railway.
+2. `SECRET_KEY`: una cadena aleatoria para la configuración de Flask.
+
+Guarda los cambios y vuelve a desplegar la aplicación.
