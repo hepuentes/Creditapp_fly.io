@@ -107,7 +107,8 @@ def create_app():
                 logo='logo.png',
                 iva=19,
                 moneda='$',
-                porcentaje_comision=5,
+                porcentaje_comision_vendedor=5,
+                porcentaje_comision_cobrador=3,
                 periodo_comision='mensual',
                 min_password=6
             )
